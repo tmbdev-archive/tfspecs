@@ -19,9 +19,9 @@ from __future__ import division
 from __future__ import print_function
 
 # pylint: disable=wildcard-import,g-importing-member
-from params_ops import *
-from specs import *
-from specs_lib import *
-from specs_ops import *
-from summaries import *
+from tfspecs.params_ops import *
+from tfspecs.specs import *
+from tfspecs.specs_lib import *
+from tfspecs.specs_ops import *
+from tfspecs.summaries import *
 # pylint: enable=wildcard-import
