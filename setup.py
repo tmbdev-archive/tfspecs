@@ -18,7 +18,6 @@ setup(
     author = "Thomas Breuel",
     author_email = "tbreuel@nvidia.com",
     license = "MIT",
-    # package_dir = {"tfspecs": "."},
-    # packages = ["tfspecs"],
-    packages = find_packages(),
+    package_dir = {"tfspecs": "."},
+    packages = ["tfspecs"],
 )
